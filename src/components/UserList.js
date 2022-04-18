@@ -5,7 +5,7 @@ function UserList(){
     let [productosEstado, setProductosEstado] = useState([])
 
     useEffect(() => {
-        fetch(`https://indefined.herokuapp.com/api/users`)
+        fetch(`https://indefined.herokuapp.com/api/usersList`)
         .then(function(response) {
             return response.json()
         })
@@ -23,7 +23,9 @@ return(
                             <tr>
                                 <th>ID</th>
                                 <th>Nombre</th>
-                                <th>Descripcion</th>
+                                <th>Email</th>
+                                <th>Rol</th>
+                                <th>Avatar</th>
                                 
                                 
                                 
@@ -33,7 +35,9 @@ return(
                             <tr>
                                 <th>ID</th>
                                 <th>Nombre</th>
-                                <th>Descripcion</th>
+                                <th>Email</th>
+                                <th>Rol</th>
+                                <th>Avatar</th>
                                 
                             </tr>
                         </tfoot>

@@ -28,7 +28,7 @@ function LastProductInDb(){
                     <div className="text-center">
                         {
                             
-                            <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 40 +'rem'}} src={'https://indefined.herokuapp.com/images/product-image/'+ultimoProducto.image} alt=" Star Wars - Mandalorian "/>}
+                            <img className="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 40 +'rem'}} src={'https://indefined.herokuapp.com/images/product-image/'+ultimoProducto.image} alt=" ultimo producto"/>}
                     </div>
                     
                     <p>Titulo: {ultimoProducto.name}</p>

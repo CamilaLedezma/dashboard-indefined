@@ -6,7 +6,7 @@ function ProductDetail(){
     let [productosEstado, setProductosEstado] = useState([])
 
     useEffect(() => {
-        fetch(`https://indefined.herokuapp.com/api/products`)
+        fetch(`https://indefined.herokuapp.com/api/productList`)
         .then(function(response) {
             return response.json()
         })
@@ -25,6 +25,15 @@ return(
                                 <th>ID</th>
                                 <th>Nombre</th>
                                 <th>Descripcion</th>
+                                <th>Precio</th>
+                                <th>Descuento</th>
+                                <th>Stock</th>
+                                <th>Stock min</th>
+                                <th>Stock max</th>
+                                <th>Color</th>
+                                <th>Talle</th>
+                                <th>Categoría</th>
+                                <th>Imagen</th>
                                 
                                 
                                 
@@ -35,6 +44,15 @@ return(
                                 <th>ID</th>
                                 <th>Nombre</th>
                                 <th>Descripcion</th>
+                                <th>Precio</th>
+                                <th>Descuento</th>
+                                <th>Stock</th>
+                                <th>Stock min</th>
+                                <th>Stock max</th>
+                                <th>Color</th>
+                                <th>Talle</th>
+                                <th>Categoría</th>
+                                <th>Imagen</th>
                                 
                             </tr>
                         </tfoot>

@@ -7,7 +7,7 @@ function Chart (){
     
 
     useEffect(() => {
-        fetch(`https://indefined.herokuapp.com/api/products`)
+        fetch(`https://indefined.herokuapp.com/api/productList`)
         .then(function(response) {
             return response.json()
         })
@@ -29,7 +29,15 @@ function Chart (){
                                 <th>ID</th>
                                 <th>Nombre</th>
                                 <th>Descripcion</th>
-                                <th>Detalle</th>
+                                <th>Precio</th>
+                                <th>Descuento</th>
+                                <th>Stock</th>
+                                <th>Stock min</th>
+                                <th>Stock max</th>
+                                <th>Color</th>
+                                <th>Talle</th>
+                                <th>Categoría</th>
+                                <th>Imagen</th>
                                 
                                 
                             </tr>
@@ -39,7 +47,15 @@ function Chart (){
                                 <th>ID</th>
                                 <th>Nombre</th>
                                 <th>Descripcion</th>
-                                <th>Detalle</th>
+                                <th>Precio</th>
+                                <th>Descuento</th>
+                                <th>Stock</th>
+                                <th>Stock min</th>
+                                <th>Stock max</th>
+                                <th>Color</th>
+                                <th>Talle</th>
+                                <th>Categoría</th>
+                                <th>Imagen</th>
                             </tr>
                         </tfoot>
                         <tbody>
